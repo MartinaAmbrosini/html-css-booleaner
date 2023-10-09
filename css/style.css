@@ -3,28 +3,46 @@
     proprietà: valore;
 } */
 
-header {
-    background-image: url("img/pattern.png");
+.header-container {
     background-color: rgb(32, 137, 223);
-    margin: 0;
+    width: 100%;
 }
 
-.logo   {
+header {
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat-x;
+    height: 100px;
+    background-size: contain;
+}
+
+.logo {
     height: 50px;
     margin-top: 30px;
+}
+
+h1 {
+    margin-bottom: 0;
 }
 
 /* stile sezione titolo */
 #autore {
     color: lightblue;
+    margin-top: 0;
 }
 
-.autore, .data{
+.data {
     color: grey;
+    font-size: 14px;
 }
 
-.tim-img    {
+.tim-img {
     margin-top: 20px;
 }
 
+.source1 {
+    font-size: 14px;
+}
     
+.source2 {
+    font-size: 14px;
+}
