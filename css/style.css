@@ -74,3 +74,31 @@ thead {
 .riga2 {
     background-color: rgb(255, 255, 255);
 }
+
+.finals {
+    font-size: 20px ;
+    color: grey ;
+    margin-top: 3%;
+}
+
+/* Container holding the image and the text */
+.container1 {
+    position: relative;
+    text-align: left;
+    color: white;
+  }
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 25px;
+}
+
+.container2 {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+  
